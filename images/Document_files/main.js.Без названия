@@ -1,0 +1,17 @@
+// ! Повторение тем
+
+// let, const
+
+// Запросите у пользователя число с помощью prompt.
+// Если содержимое переменной result больше 23 и меньше 40, выведите
+// пользователю ответ ‘Hello’, иначе выведите ‘Goodbye’.
+
+let result = parseInt(prompt("Enter a number"));
+
+if (result > 23 && result < 40) {
+  alert("hello");
+} else {
+  alert("Goodbye");
+}
+
+// result > 23 && result < 40 ? alert("hi") : alert
